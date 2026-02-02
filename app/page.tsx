@@ -4,9 +4,10 @@ export default function Home() {
       {/* HERO */}
       <section className="max-w-6xl mx-auto px-6 py-24 text-center">
         <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-          Never Forget.  
+          Never Forget.
           <span className="block text-[#6D5DFE] mt-2">Earn Points.</span>
         </h1>
+
         <p className="mt-6 text-lg text-gray-300 max-w-2xl mx-auto">
           A simple reminder app that rewards you for completing tasks.
           Stay productive, stay motivated.
@@ -60,28 +61,36 @@ export default function Home() {
 
         <div className="grid md:grid-cols-2 gap-8">
           <div className="p-6 rounded-2xl bg-[#15102A]">
-            <h3 className="text-xl font-medium mb-2">Gamified Productivity</h3>
+            <h3 className="text-xl font-medium mb-2">
+              Gamified Productivity
+            </h3>
             <p className="text-gray-400">
               Motivation through rewards, not pressure.
             </p>
           </div>
 
           <div className="p-6 rounded-2xl bg-[#15102A]">
-            <h3 className="text-xl font-medium mb-2">Clean & Lightweight</h3>
+            <h3 className="text-xl font-medium mb-2">
+              Clean & Lightweight
+            </h3>
             <p className="text-gray-400">
               Fast performance with a minimal and distraction-free design.
             </p>
           </div>
 
           <div className="p-6 rounded-2xl bg-[#15102A]">
-            <h3 className="text-xl font-medium mb-2">Customizable</h3>
+            <h3 className="text-xl font-medium mb-2">
+              Customizable Rewards
+            </h3>
             <p className="text-gray-400">
               Use points to unlock themes and app modifications.
             </p>
           </div>
 
           <div className="p-6 rounded-2xl bg-[#15102A]">
-            <h3 className="text-xl font-medium mb-2">Built for Consistency</h3>
+            <h3 className="text-xl font-medium mb-2">
+              Built for Consistency
+            </h3>
             <p className="text-gray-400">
               Turn habits into a rewarding daily routine.
             </p>
@@ -92,6 +101,7 @@ export default function Home() {
       {/* FOOTER */}
       <footer className="border-t border-white/10 py-10 text-center text-gray-400 text-sm">
         <p>© 2026 Reminder App. All rights reserved.</p>
+
         <div className="mt-4 flex justify-center gap-6">
           <a href="/privacy" className="hover:text-white">
             Privacy Policy
@@ -104,4 +114,3 @@ export default function Home() {
     </main>
   );
 }
-
